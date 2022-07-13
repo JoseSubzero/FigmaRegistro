@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/initFragment">
+    <fragment
+        android:id="@+id/initFragment"
+        android:name="com.example.figmaregistro.InitFragment"
+        android:label="fragment_init"
+        tools:layout="@layout/fragment_init" >
+        <action
+            android:id="@+id/action_initFragment_to_registerFragment2"
+            app:destination="@id/registerFragment2" />
+        <action
+            android:id="@+id/action_initFragment_to_welcomeBackFragment"
+            app:destination="@id/welcomeBackFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment2"
+        android:name="com.example.figmaregistro.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment2_to_maxWelcomeFragment"
+            app:destination="@id/maxWelcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeBackFragment"
+        android:name="com.example.figmaregistro.WelcomeBackFragment"
+        android:label="fragment_welcome_back"
+        tools:layout="@layout/fragment_welcome_back" >
+        <action
+            android:id="@+id/action_welcomeBackFragment_to_maxWelcomeFragment"
+            app:destination="@id/maxWelcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/maxWelcomeFragment"
+        android:name="com.example.figmaregistro.MaxWelcomeFragment"
+        android:label="fragment_max_welcome"
+        tools:layout="@layout/fragment_max_welcome" >
+        <action
+            android:id="@+id/action_maxWelcomeFragment_to_initFragment"
+            app:destination="@id/initFragment" />
+    </fragment>
+</navigation>

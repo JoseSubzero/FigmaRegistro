@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FigmaRegistro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvTestAppDesign">Figma Test App Design</string>
+    <string name="btnGetStarted">Get Started</string>
+    <string name="tvLatin">Lorem ipsum dolor sit amet, consectetur</string>
+    <string name="tvOnboard">Welcome to Onboard</string>
+    <string name="tvhelptasks">let´s help you meet up your tasks</string>
+    <string name="etEnterName">Enter your name</string>
+    <string name="etEnterEmail">Enter your email</string>
+    <string name="etEnterPassword">Enter password</string>
+    <string name="etConfirmPassword">Confirm password</string>
+    <string name="btnRegister">Register</string>
+    <string name="tvSignIn">Already have an account? Sing in</string>
+    <string name="tvWelcomeBack">Welcome back</string>
+    <string name="tvForgotPassword">Forgot Password?</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="WelcomeMax">Welcome Inspector Max</string>
+    <string name="Spam">Already have an account</string>
+</resources>
